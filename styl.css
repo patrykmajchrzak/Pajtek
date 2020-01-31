@@ -1,0 +1,16 @@
+header { background: rgb(27, 72, 141); width:100%; height: 15%; }
+section { background: white; width:25%; height: 80%; float: left; }
+aside { background: rgb(83, 83, 83); width:75%; height: 80%; float: right; }
+footer { background:rgb(27, 72, 141); width:100%; height: 5%; clear: both; }
+#tytul { font: 50px Arial, sans-serif; color: White; text-align: center; padding: 25px 50px; }
+#stopka { font: 10px Arial, sans-serif; color: white; text-align: center; padding: 25px 50px; }
+.przycisk{ float: left; font: 10px Arial, sans-serif; text-align: center; background-color: white; width: 100%;}
+.przycisk2{ float: left; font: 10px Arial, sans-serif; text-align: center; background-color: white; width: 100%;}
+.przycisk3{ float: left; font: 10px Arial, sans-serif; text-align: center; background-color: white; width: 100%;}
+.przycisk4{ float: left; font: 10px Arial, sans-serif; text-align: center; background-color: white; width: 100%;}
+img{ width: 300px; }
+article{text-align: center;}
+.viewDiv{margin-left: 5px;}
+
+
+

@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miasta Polski</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+          crossorigin=""></script>
+    <script src="script.js" defer></script>
+    <style>
+        #mapid { height: 100%; }
+    </style>    
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.14/"></script>
+</head>
+
+<body>
+
+<header><p id = "tytul">Miasta, które zwiedzę w roku 2020</p></header>
+
+<section>
+    
+    <article>
+        <p id="1">Wrocław</p>
+        <img src="wroclaw.jpg">
+
+    </article>
+
+    <article>
+        <p id="2">Kraków</p>
+        <img src="krakow.jpeg">
+    </article>
+
+    <article>
+        <p id="3">Gdańsk</p>
+        <img src="gdansk.jpg">
+    </article>
+
+</section>
+<aside>
+        <button id="przycisk">Mapa satelitarna</button>
+        <button id="przycisk2">Mapa topograficzna</button>
+        <button id="przycisk3">Mapa OSM</button>
+        <button id="przycisk4">AGOL</button>
+        <br>
+        <div id="viewDiv">
+        <div id="mapid"></div>
+        </div>
+    </aside>
+
+<footer><p id="stopka">Patryk Majchrzak 2020©</p></footer>
+
+</body>
+
+</html>
